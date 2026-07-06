@@ -26,8 +26,7 @@ export default function Login() {
       <div className="login-glow" aria-hidden="true" />
       <div className="login-card card">
         <div className="login-brand">
-          <span className="bolt-icon" aria-hidden="true">⚡</span>
-          <h1 className="login-title brand-word">HighVolt <span className="brand-ai">AI</span></h1>
+          <img src="/logo.jpg" alt="HighVolt AI" className="login-logo" />
         </div>
         <HoneycombEdge className="gold-drip-small" />
         <p className="login-sub">Enter your PIN to continue</p>

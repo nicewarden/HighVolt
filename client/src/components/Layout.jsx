@@ -1,5 +1,5 @@
 import { NavLink, Outlet } from 'react-router-dom';
-import { LayoutDashboard, ShieldCheck, CalendarClock, Wrench, NotebookPen, LogOut, Zap, Mail } from 'lucide-react';
+import { LayoutDashboard, ShieldCheck, CalendarClock, Wrench, NotebookPen, LogOut, Mail } from 'lucide-react';
 import { useAuth } from '../lib/AuthContext.jsx';
 import PlasmaBridge from './PlasmaBridge.jsx';
 
@@ -19,8 +19,7 @@ export default function Layout() {
     <div className="app-shell">
       <header className="app-header">
         <div className="brand">
-          <Zap size={26} strokeWidth={2.5} />
-          <span className="brand-word">HighVolt <span className="brand-ai">AI</span></span>
+          <img src="/logo.jpg" alt="HighVolt AI" className="brand-logo" />
         </div>
         <button className="btn secondary" onClick={logout}>
           <LogOut size={16} style={{ verticalAlign: 'middle', marginRight: 6 }} />

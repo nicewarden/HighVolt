@@ -126,6 +126,7 @@ a { color: var(--electric); }
     radial-gradient(circle 2.4px at calc(100% - 9px) calc(100% - 9px), var(--brass-highlight), var(--gold-deep) 55%, transparent 60%);
 }
 .brand svg { color: var(--electric-bright); filter: drop-shadow(0 0 6px rgba(125, 216, 255, 0.75)); }
+.brand-logo { display: block; height: 34px; width: auto; border-radius: 4px; }
 
 .brand-word {
   font-family: var(--font-display);
@@ -369,6 +370,7 @@ input:focus, select:focus, textarea:focus {
     radial-gradient(circle 2.6px at calc(100% - 10px) calc(100% - 10px), var(--brass-highlight), var(--gold-deep) 55%, transparent 60%);
 }
 .bolt-icon { font-size: 1.6rem; filter: drop-shadow(0 0 8px rgba(239, 178, 79, 0.7)); }
+.login-logo { display: block; height: 96px; width: auto; border-radius: 8px; }
 .login-title { margin: 0; font-size: 2.4rem; text-align: center; }
 .login-sub { text-align: center; color: var(--text-secondary); margin-top: 0; margin-bottom: 20px; }
 .login-error { color: var(--danger); font-weight: 600; }
