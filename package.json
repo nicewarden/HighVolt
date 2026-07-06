@@ -1,0 +1,48 @@
+{
+  "name": "highvolt-ai",
+  "version": "1.0.0",
+  "private": true,
+  "main": "electron/main.cjs",
+  "description": "HighVolt AI - personal work assistant for high voltage management",
+  "scripts": {
+    "install:all": "npm install && npm install --prefix server && npm install --prefix client",
+    "dev": "concurrently -k -n SERVER,CLIENT -c yellow,cyan \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "build": "npm run build --prefix client",
+    "start": "npm run build && npm run start --prefix server",
+    "desktop": "npm run build --prefix client && electron .",
+    "push": "npm run build --prefix client",
+    "package:win": "npm run build --prefix client && electron-builder --win portable"
+  },
+  "devDependencies": {
+    "@electron/rebuild": "^4.1.0",
+    "concurrently": "^9.1.0",
+    "electron": "^37.10.3",
+    "electron-builder": "^26.15.3"
+  },
+  "build": {
+    "appId": "com.highvolt.ai",
+    "productName": "HighVolt AI",
+    "asar": false,
+    "npmRebuild": false,
+    "afterPack": "electron/afterPack.cjs",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "electron/**/*",
+      "client/dist/**/*",
+      "server/**/*",
+      "!server/data/*.db",
+      "!server/data/*.db-journal",
+      "!server/data/*.db-wal",
+      "!server/data/*.db-shm",
+      "!server/data/certs/**",
+      "!server/.claude/**",
+      ".env",
+      "package.json"
+    ],
+    "win": {
+      "target": "portable"
+    }
+  }
+}

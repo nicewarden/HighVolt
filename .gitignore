@@ -1,0 +1,14 @@
+node_modules/
+server/node_modules/
+client/node_modules/
+client/dist/
+server/data/*.db
+server/data/*.db-journal
+server/data/*.db-wal
+server/data/*.db-shm
+server/data/certs/
+.env
+*.log
+release/
+.claude/
+server/.claude/
