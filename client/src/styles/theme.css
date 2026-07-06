@@ -199,8 +199,20 @@ a { color: var(--electric); }
   border-top: 1px solid var(--panel-border);
   background: var(--storm-1);
 }
+/* On mobile the tab bar is position:fixed (out of normal flow), so a plain
+   margin-bottom can't reliably reserve space above it - the footer just
+   ends up underneath it. Pin the footer above the tab bar the same way
+   .assistant-tabs already does (fixed, bottom: 58px = tab bar height),
+   and give app-main enough padding-bottom to clear both. */
 @media (max-width: 640px) {
-  .app-footer { margin-bottom: 58px; }
+  .app-footer {
+    position: fixed;
+    bottom: 58px;
+    left: 0;
+    right: 0;
+    z-index: 20;
+  }
+  .app-main { padding-bottom: 140px; }
 }
 
 /* ---- Data surfaces: high contrast, no drama ---- */
