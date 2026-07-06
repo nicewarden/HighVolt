@@ -1,0 +1,408 @@
+/* ==========================================================================
+   HighVolt AI — full visual theme
+   Dramatic storm + molten-gold branding on headers/accents; data views
+   (cards, tables, forms) stay high-contrast and clean for fast field use.
+   ========================================================================== */
+
+:root {
+  /* Neutral gunmetal-grey studio palette, matching the HV1 mark: a cool
+     dark-grey backdrop lit from above, rather than the previous warm
+     brown-black. Gold accents stay the same family, just read brighter
+     against grey than they did against near-black. */
+  --void: #1c1c1e;
+  --storm-1: #262629;
+  --storm-2: #201f22;
+  --storm-3: #17171a;
+  --panel: #141416;
+  --panel-light: #1e1e21;
+  --panel-border: rgba(201, 138, 53, 0.24);
+
+  --text-primary: #f6f0e2;
+  --text-secondary: #c9b98d;
+  --text-muted: #8a7f66;
+
+  /* Engraved-brass nameplate palette - warmer, deeper copper/bronze instead
+     of flat yellow-gold, inspired by RRDESK.png's crackling brass plaque. */
+  --gold-shine: #fff3d6;
+  --brass-highlight: #fffaea;
+  --gold-bright: #efb24f;
+  --gold: #c98a35;
+  --gold-copper: #a8672a;
+  --gold-deep: #7a4d18;
+  --gold-shadow: #341f08;
+
+  --electric: #7fd6ff;
+  --electric-bright: #cdf1ff;
+
+  --danger: #ff6f6f;
+  --danger-bg: rgba(255, 90, 90, 0.14);
+  --success: #57dd94;
+  --success-bg: rgba(87, 221, 148, 0.14);
+  --warning: #f6c667;
+  --warning-bg: rgba(239, 178, 79, 0.14);
+
+  --gold-metal: linear-gradient(
+    160deg,
+    var(--gold-shine) 0%, var(--brass-highlight) 10%, var(--gold-bright) 24%, var(--gold) 42%,
+    var(--gold-deep) 56%, var(--gold-copper) 70%, var(--gold-bright) 86%, var(--gold-shine) 100%
+  );
+
+  /* Subtle honeycomb hex grid, etched in thin brass lines on black. One
+     rectangular tile holds 4 corner-hexagons + 1 center hexagon so it
+     repeats seamlessly (each tile's clipped corner fragments complete the
+     neighboring tile's fragments into whole hexagons). */
+  --honeycomb: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='38.11' height='66' viewBox='0 0 38.11 66'%3E%3Cg fill='none' stroke='rgba(201,138,53,0.17)' stroke-width='1'%3E%3Cpolygon points='0,-22 19.05,-11 19.05,11 0,22 -19.05,11 -19.05,-11'/%3E%3Cpolygon points='38.11,-22 57.16,-11 57.16,11 38.11,22 19.06,11 19.06,-11'/%3E%3Cpolygon points='0,44 19.05,55 19.05,77 0,88 -19.05,77 -19.05,55'/%3E%3Cpolygon points='38.11,44 57.16,55 57.16,77 38.11,88 19.06,77 19.06,55'/%3E%3Cpolygon points='19.05,11 38.1,22 38.1,44 19.05,55 0,44 0,22'/%3E%3C/g%3E%3C/svg%3E");
+
+  --font-display: 'Teko', 'Arial Narrow', sans-serif;
+  --font-heading: 'Rajdhani', 'Segoe UI', sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.lightning-bg {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.app-shell, .login-screen { position: relative; z-index: 1; }
+
+/* ---- Base surface ---- */
+body {
+  background-color: var(--void);
+  background-image:
+    var(--honeycomb),
+    radial-gradient(ellipse 1100px 650px at 50% -10%, rgba(220, 220, 225, 0.14), transparent 62%),
+    radial-gradient(ellipse 700px 500px at 100% 0%, rgba(239, 178, 79, 0.08), transparent 55%),
+    linear-gradient(180deg, var(--storm-1) 0%, var(--void) 55%, var(--void) 100%);
+  background-repeat: repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 38.11px 66px, auto, auto, auto;
+  background-attachment: fixed, fixed, fixed, fixed;
+  color: var(--text-primary);
+  font-family: var(--font-body);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--text-primary);
+}
+
+a { color: var(--electric); }
+
+/* ---- Header / brand ----
+   Bolt mark pinned top-left, HighVolt wordmark as a banner filling the
+   rest of the bar - both cropped straight from the HV1 mark with their
+   grey backing keyed to transparent, so they sit directly on the header's
+   own gradient with no boxed-logo treatment. */
+.app-header {
+  position: relative;
+  background: linear-gradient(120deg, var(--storm-2) 0%, var(--storm-3) 100%);
+  border-bottom: 1px solid var(--panel-border);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+  height: 80px;
+  padding: 0 16px;
+}
+/* Pinned top-left, centered top-to-bottom in the header. A definite height
+   (not top+bottom-derived auto) avoids the replaced-element sizing quirk
+   where an <img> with both top and bottom set ignores the container and
+   sizes from its own intrinsic ratio instead of stretching to fill. */
+.brand-bolt {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 72px;
+  width: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 0 8px rgba(239, 178, 79, 0.45));
+}
+/* Centered independently of the bolt mark, at 75% of the header's width,
+   never distorted (object-fit: contain preserves the source aspect ratio). */
+.brand-banner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 75%;
+  height: auto;
+  max-height: calc(100% - 8px);
+  object-fit: contain;
+}
+
+.lightning-divider {
+  height: 4px;
+  background: var(--gold-metal);
+  background-size: 300% 100%;
+  opacity: 0.9;
+  box-shadow: 0 0 14px rgba(239, 178, 79, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.plasma-bridge {
+  display: block;
+  width: 100%;
+  height: 26px;
+  overflow: visible;
+  animation: plasmaFlicker 0.12s steps(2) infinite alternate;
+}
+@keyframes plasmaFlicker { 0% { opacity: 0.88; } 100% { opacity: 1; } }
+@media (max-width: 640px) { .plasma-bridge { height: 18px; } }
+
+.gold-drip-wrap { position: relative; overflow: visible; }
+.gold-drip {
+  display: block;
+  width: 100%;
+  height: 34px;
+  margin-top: -1px;
+  overflow: visible;
+  filter: drop-shadow(0 3px 4px rgba(0, 0, 0, 0.55));
+}
+@media (max-width: 640px) { .gold-drip { height: 22px; } }
+.gold-drip-small { height: 18px; margin-bottom: 6px; }
+
+/* ---- Nav ---- */
+.app-nav {
+  background: var(--storm-1);
+  border-bottom: 1px solid var(--panel-border);
+}
+.app-nav a {
+  color: var(--text-secondary);
+  font-family: var(--font-heading);
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+  border-radius: 4px 4px 0 0;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.app-nav a:hover { color: var(--text-primary); }
+.app-nav a.active {
+  color: var(--gold-bright);
+  background: transparent;
+  border-bottom-color: var(--gold);
+  text-shadow: 0 0 12px rgba(239, 178, 79, 0.4);
+}
+
+.mobile-tab-bar {
+  background: linear-gradient(180deg, var(--storm-2), var(--storm-1));
+  border-top: 1px solid var(--panel-border);
+}
+.mobile-tab-bar a { color: var(--text-muted); }
+.mobile-tab-bar a.active { color: var(--gold-bright); filter: drop-shadow(0 0 6px rgba(239, 178, 79, 0.5)); }
+
+/* ---- Data surfaces: high contrast, no drama ---- */
+.card {
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  color: var(--text-primary);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+}
+.card h3 { color: var(--text-primary); }
+
+table { color: var(--text-primary); }
+th, td { border-bottom: 1px solid var(--panel-border); }
+th { color: var(--text-secondary); font-family: var(--font-heading); text-transform: uppercase; font-size: 0.78rem; letter-spacing: 0.04em; }
+tbody tr:hover { background: rgba(255, 255, 255, 0.03); }
+
+.stat-tile { background: var(--panel); border: 1px solid var(--panel-border); }
+.stat-tile .num { font-family: var(--font-display); font-size: 2.6rem; color: var(--text-primary); }
+.stat-tile .num.alert { color: var(--danger); text-shadow: 0 0 14px rgba(255, 111, 111, 0.35); }
+.stat-tile .num.ok { color: var(--success); }
+.stat-tile .label { color: var(--text-secondary); font-family: var(--font-heading); letter-spacing: 0.03em; }
+
+.calc-result {
+  background: var(--panel-light);
+  border: 1px solid var(--panel-border);
+  color: var(--text-primary);
+}
+
+.empty-state { color: var(--text-muted); }
+
+/* ---- Forms ---- */
+.form-row label { color: var(--text-secondary); font-family: var(--font-heading); font-weight: 600; letter-spacing: 0.02em; }
+.form-row input, .form-row select, .form-row textarea,
+input, select, textarea {
+  background: var(--panel-light);
+  border: 1px solid var(--panel-border);
+  color: var(--text-primary);
+}
+.form-row input::placeholder, textarea::placeholder { color: var(--text-muted); }
+.form-row input:focus, .form-row select:focus, .form-row textarea:focus,
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: var(--electric);
+  box-shadow: 0 0 0 3px rgba(127, 214, 255, 0.2);
+}
+
+/* ---- Buttons: polished, shiny gold ---- */
+.btn {
+  background: var(--gold-metal);
+  background-size: 100% 250%;
+  background-position: 0% 30%;
+  color: #241505;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  box-shadow: 0 2px 10px rgba(168, 103, 42, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.6), inset 0 -2px 4px rgba(52, 31, 8, 0.5);
+  border: none;
+  transition: filter 0.15s ease, box-shadow 0.15s ease, transform 0.1s ease, background-position 0.2s ease;
+}
+.btn:hover:not(:disabled) {
+  filter: brightness(1.1);
+  background-position: 0% 0%;
+  box-shadow: 0 4px 18px rgba(239, 178, 79, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.7), inset 0 -2px 4px rgba(52, 31, 8, 0.5);
+  transform: translateY(-1px);
+}
+.btn:active:not(:disabled) { transform: translateY(0); }
+.btn.secondary {
+  background: var(--panel-light);
+  color: var(--gold-bright);
+  border: 1px solid var(--gold-deep);
+  box-shadow: none;
+}
+.btn.secondary:hover:not(:disabled) { background: var(--storm-3); filter: none; box-shadow: 0 0 10px rgba(168,103,42,0.25); }
+.btn.danger {
+  background: linear-gradient(160deg, #ff8a8a, #d94848);
+  color: #2a0a0a;
+  box-shadow: 0 2px 10px rgba(217, 72, 72, 0.35);
+}
+
+/* ---- Tabs ---- */
+.tabs { border-bottom: 2px solid var(--panel-border); }
+.tabs button { color: var(--text-secondary); font-family: var(--font-heading); font-weight: 600; }
+.tabs button.active { color: var(--gold-bright); border-bottom-color: var(--gold); text-shadow: 0 0 10px rgba(239, 178, 79, 0.35); }
+
+/* Assistant page's own tab row (To-Do / Run Command / Notes / Drafts / Search
+   Notes), pinned to the bottom of the screen instead of sitting under the title. */
+.assistant-page { padding-bottom: 64px; }
+.assistant-tabs {
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  z-index: 25;
+  margin: 0;
+  padding: 8px 16px 0;
+  background: var(--storm-1);
+  background-image: var(--honeycomb);
+  background-repeat: repeat;
+  background-size: 38.11px 66px;
+  border-bottom: none;
+  border-top: 1px solid var(--panel-border);
+  box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.35);
+  justify-content: center;
+}
+@media (max-width: 640px) {
+  .assistant-page { padding-bottom: 128px; }
+  .assistant-tabs { bottom: 58px; overflow-x: auto; justify-content: flex-start; }
+}
+
+/* ---- Badges ---- */
+.badge.overdue, .badge.open { background: var(--danger-bg); color: var(--danger); }
+.badge.upcoming { background: var(--warning-bg); color: var(--warning); }
+.badge.ok, .badge.closed, .badge.complete { background: var(--success-bg); color: var(--success); }
+
+/* ---- Login screen ---- */
+.login-screen {
+  position: relative;
+  overflow: hidden;
+  /* intentionally no opaque background here — the shared WeatherBackground
+     canvas (z-index 0) and body gradient must show through underneath */
+  background: radial-gradient(ellipse 900px 700px at 50% 20%, rgba(168, 103, 42, 0.22), transparent 60%);
+}
+.login-glow {
+  position: absolute;
+  top: -20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 700px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(239, 178, 79, 0.18) 0%, transparent 65%);
+  pointer-events: none;
+}
+.login-card {
+  position: relative;
+  z-index: 2;
+  border: 1px solid var(--panel-border);
+  box-shadow: 0 0 40px rgba(168, 103, 42, 0.12), 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+.login-brand {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin: 0 auto 16px;
+  padding: 10px 26px;
+  width: fit-content;
+  border-radius: 8px;
+  background: linear-gradient(160deg, var(--storm-3) 0%, var(--void) 75%);
+  border: 1px solid var(--gold-deep);
+  box-shadow:
+    0 0 0 1px rgba(0, 0, 0, 0.7),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05),
+    inset 0 0 16px rgba(0, 0, 0, 0.65),
+    0 4px 16px rgba(0, 0, 0, 0.5);
+}
+.login-brand::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  background:
+    radial-gradient(circle 2.6px at 10px 10px, var(--brass-highlight), var(--gold-deep) 55%, transparent 60%),
+    radial-gradient(circle 2.6px at calc(100% - 10px) 10px, var(--brass-highlight), var(--gold-deep) 55%, transparent 60%),
+    radial-gradient(circle 2.6px at 10px calc(100% - 10px), var(--brass-highlight), var(--gold-deep) 55%, transparent 60%),
+    radial-gradient(circle 2.6px at calc(100% - 10px) calc(100% - 10px), var(--brass-highlight), var(--gold-deep) 55%, transparent 60%);
+}
+.bolt-icon { font-size: 1.6rem; filter: drop-shadow(0 0 8px rgba(239, 178, 79, 0.7)); }
+.login-logo { display: block; height: 96px; width: auto; border-radius: 8px; }
+.login-title { margin: 0; font-size: 2.4rem; text-align: center; }
+.login-sub { text-align: center; color: var(--text-secondary); margin-top: 0; margin-bottom: 20px; }
+.login-error { color: var(--danger); font-weight: 600; }
+
+.mountain-silhouette {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 140px;
+  z-index: 1;
+  pointer-events: none;
+}
+.mountain-layer { position: absolute; bottom: 0; left: 0; right: 0; }
+.mountain-back {
+  height: 110px;
+  background: var(--storm-2);
+  opacity: 0.6;
+  clip-path: polygon(0% 100%, 0% 55%, 12% 70%, 24% 40%, 38% 65%, 50% 30%, 64% 62%, 78% 45%, 90% 68%, 100% 50%, 100% 100%);
+}
+.mountain-front {
+  height: 80px;
+  background: var(--void);
+  clip-path: polygon(0% 100%, 0% 70%, 15% 45%, 30% 68%, 45% 38%, 58% 60%, 72% 35%, 85% 58%, 100% 40%, 100% 100%);
+}
+
+@media (max-width: 640px) {
+  .brand-word { font-size: 1.7rem; }
+}
+
+/* ---- Honeycomb texture on dark panels (appended last to win over the
+   shorthand `background:` declarations above, which reset background-image).
+   .card and .app-nav keep their solid background-color untouched (only
+   background-image is longhand-overridden here); .app-header and
+   .mobile-tab-bar re-list their original gradient as the 2nd image layer
+   so the pattern composites on top instead of replacing it. ---- */
+.card, .app-nav {
+  background-image: var(--honeycomb);
+  background-repeat: repeat;
+  background-size: 38.11px 66px;
+}
+.app-header {
+  background-image: var(--honeycomb), linear-gradient(120deg, var(--storm-2) 0%, var(--storm-3) 100%);
+  background-repeat: repeat, no-repeat;
+  background-size: 38.11px 66px, auto;
+}
+.mobile-tab-bar {
+  background-image: var(--honeycomb), linear-gradient(180deg, var(--storm-2), var(--storm-1));
+  background-repeat: repeat, no-repeat;
+  background-size: 38.11px 66px, auto;
+}

@@ -1,0 +1,82 @@
+/* Baseline functional styling. Full HighVolt visual theme is layered on in theme.css later. */
+* { box-sizing: border-box; }
+
+@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+.spin { animation: spin 1s linear infinite; }
+
+html, body, #root { height: 100%; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, sans-serif;
+  background: #f4f5f7;
+  color: #1a1a1a;
+}
+a { color: inherit; }
+button, input, select, textarea { font: inherit; }
+
+.app-shell { min-height: 100%; display: flex; flex-direction: column; }
+.app-header { padding: 12px 16px; background: #1a1a2e; color: #fff; display: flex; align-items: center; justify-content: flex-start; }
+.mobile-tab-bar { display: none; }
+.app-nav { display: flex; gap: 4px; flex-wrap: wrap; padding: 8px 16px; background: #23233a; }
+.app-nav a { padding: 8px 12px; border-radius: 6px; text-decoration: none; color: #ccc; font-size: 0.9rem; }
+.app-nav a.active { background: #3a3a5a; color: #fff; }
+.app-main { flex: 1; padding: 16px; max-width: 1100px; width: 100%; margin: 0 auto; }
+
+.card { background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+.grid { display: grid; gap: 16px; }
+.grid-3 { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+
+.table-scroll { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; min-width: 480px; }
+th, td { text-align: left; padding: 8px; border-bottom: 1px solid #eee; font-size: 0.9rem; }
+th { font-weight: 600; color: #555; }
+
+.form-row { display: flex; flex-direction: column; gap: 4px; margin-bottom: 12px; }
+.form-row label { font-size: 0.85rem; font-weight: 600; color: #444; }
+.form-row input, .form-row select, .form-row textarea {
+  padding: 8px 10px; border: 1px solid #ccc; border-radius: 6px;
+}
+.form-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; }
+
+.btn { padding: 8px 16px; border-radius: 6px; border: none; background: #3a3a5a; color: #fff; cursor: pointer; font-weight: 600; }
+.btn:hover { background: #4a4a7a; }
+.btn.secondary { background: #eee; color: #222; }
+.btn.danger { background: #c0392b; }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.tabs { display: flex; gap: 4px; margin-bottom: 16px; border-bottom: 2px solid #ddd; flex-wrap: wrap; }
+.tabs button { padding: 8px 14px; border: none; background: none; cursor: pointer; font-weight: 600; color: #666; border-bottom: 2px solid transparent; margin-bottom: -2px; }
+.tabs button.active { color: #1a1a2e; border-bottom-color: #1a1a2e; }
+
+.badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 0.75rem; font-weight: 600; }
+.badge.overdue, .badge.open { background: #fde3e3; color: #a5271a; }
+.badge.upcoming { background: #fff3d6; color: #8a6100; }
+.badge.ok, .badge.closed, .badge.complete { background: #dff5e3; color: #1e7a35; }
+
+.stat-tile { padding: 20px; border-radius: 8px; background: #fff; border: 1px solid #ddd; text-align: center; }
+.stat-tile .num { font-size: 2rem; font-weight: 700; }
+.stat-tile .label { font-size: 0.85rem; color: #666; }
+
+.empty-state { padding: 24px; text-align: center; color: #777; }
+.calc-result { margin-top: 12px; padding: 12px; background: #f0f0f5; border-radius: 6px; font-size: 0.95rem; }
+.exec-output { background: #111; color: #ddd; padding: 10px; border-radius: 6px; overflow-x: auto; font-size: 0.85rem; white-space: pre-wrap; word-break: break-word; }
+.exec-output-error { color: #ff8a8a; }
+
+.login-screen { min-height: 100%; display: flex; align-items: center; justify-content: center; padding: 16px; background: #1a1a2e; }
+.login-card { width: 100%; max-width: 340px; }
+.login-title { margin-top: 0; }
+
+@media (max-width: 640px) {
+  .app-main { padding: 12px; padding-bottom: 76px; }
+  table { font-size: 0.8rem; }
+  .app-nav { display: none; }
+  .mobile-tab-bar {
+    display: flex; position: fixed; bottom: 0; left: 0; right: 0;
+    background: #1a1a2e; border-top: 1px solid #333; z-index: 20;
+  }
+  .mobile-tab-bar a {
+    flex: 1; display: flex; flex-direction: column; align-items: center; gap: 2px;
+    padding: 8px 4px; text-decoration: none; color: #999; font-size: 0.65rem;
+  }
+  .mobile-tab-bar a.active { color: #fff; }
+}

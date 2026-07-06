@@ -18,13 +18,8 @@ export default function Layout() {
   return (
     <div className="app-shell">
       <header className="app-header">
-        <div className="brand">
-          <img src="/logo.jpg" alt="HighVolt AI" className="brand-logo" />
-        </div>
-        <button className="btn secondary" onClick={logout}>
-          <LogOut size={16} style={{ verticalAlign: 'middle', marginRight: 6 }} />
-          Logout
-        </button>
+        <img src="/bolt-icon.png" alt="" className="brand-bolt" />
+        <img src="/wordmark-banner.png" alt="HighVolt AI" className="brand-banner" />
       </header>
       <PlasmaBridge />
 
@@ -40,6 +35,13 @@ export default function Layout() {
       <main className="app-main">
         <Outlet />
       </main>
+
+      <footer className="app-footer">
+        <button className="btn secondary" onClick={logout}>
+          <LogOut size={16} style={{ verticalAlign: 'middle', marginRight: 6 }} />
+          Logout
+        </button>
+      </footer>
 
       <nav className="mobile-tab-bar">
         {NAV_ITEMS.map(({ to, label, icon: Icon, end }) => (

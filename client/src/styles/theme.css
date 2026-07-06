@@ -5,12 +5,16 @@
    ========================================================================== */
 
 :root {
-  --void: #000000;
-  --storm-1: #080502;
-  --storm-2: #0e0904;
-  --storm-3: #1a1006;
-  --panel: #0d0d0d;
-  --panel-light: #161412;
+  /* Neutral gunmetal-grey studio palette, matching the HV1 mark: a cool
+     dark-grey backdrop lit from above, rather than the previous warm
+     brown-black. Gold accents stay the same family, just read brighter
+     against grey than they did against near-black. */
+  --void: #1c1c1e;
+  --storm-1: #262629;
+  --storm-2: #201f22;
+  --storm-3: #17171a;
+  --panel: #141416;
+  --panel-light: #1e1e21;
   --panel-border: rgba(201, 138, 53, 0.24);
 
   --text-primary: #f6f0e2;
@@ -70,8 +74,8 @@ body {
   background-color: var(--void);
   background-image:
     var(--honeycomb),
-    radial-gradient(ellipse 900px 500px at 15% -10%, rgba(168, 103, 42, 0.16), transparent 60%),
-    radial-gradient(ellipse 700px 500px at 100% 0%, rgba(239, 178, 79, 0.09), transparent 55%),
+    radial-gradient(ellipse 1100px 650px at 50% -10%, rgba(220, 220, 225, 0.14), transparent 62%),
+    radial-gradient(ellipse 700px 500px at 100% 0%, rgba(239, 178, 79, 0.08), transparent 55%),
     linear-gradient(180deg, var(--storm-1) 0%, var(--void) 55%, var(--void) 100%);
   background-repeat: repeat, no-repeat, no-repeat, no-repeat;
   background-size: 38.11px 66px, auto, auto, auto;
@@ -89,62 +93,44 @@ h1, h2, h3 {
 
 a { color: var(--electric); }
 
-/* ---- Header / brand ---- */
+/* ---- Header / brand ----
+   Bolt mark pinned top-left, HighVolt wordmark as a banner filling the
+   rest of the bar - both cropped straight from the HV1 mark with their
+   grey backing keyed to transparent, so they sit directly on the header's
+   own gradient with no boxed-logo treatment. */
 .app-header {
+  position: relative;
   background: linear-gradient(120deg, var(--storm-2) 0%, var(--storm-3) 100%);
   border-bottom: 1px solid var(--panel-border);
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+  height: 80px;
+  padding: 0 16px;
 }
-
-/* Engraved brass nameplate treatment for the brand lockup, echoing
-   RRDESK.png's beveled, riveted plaque: a dark bezeled panel, a metal
-   frame, and four corner rivets faked with layered radial gradients so no
-   extra markup is needed. */
-.brand {
-  position: relative;
-  gap: 10px;
-  padding: 7px 22px;
-  border-radius: 7px;
-  background: linear-gradient(160deg, var(--storm-3) 0%, var(--void) 75%);
-  border: 1px solid var(--gold-deep);
-  box-shadow:
-    0 0 0 1px rgba(0, 0, 0, 0.7),
-    inset 0 1px 0 rgba(255, 255, 255, 0.05),
-    inset 0 0 14px rgba(0, 0, 0, 0.65),
-    0 2px 10px rgba(0, 0, 0, 0.5);
-}
-.brand::before {
-  content: '';
+/* Pinned top-left, centered top-to-bottom in the header. A definite height
+   (not top+bottom-derived auto) avoids the replaced-element sizing quirk
+   where an <img> with both top and bottom set ignores the container and
+   sizes from its own intrinsic ratio instead of stretching to fill. */
+.brand-bolt {
   position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  pointer-events: none;
-  background:
-    radial-gradient(circle 2.4px at 9px 9px, var(--brass-highlight), var(--gold-deep) 55%, transparent 60%),
-    radial-gradient(circle 2.4px at calc(100% - 9px) 9px, var(--brass-highlight), var(--gold-deep) 55%, transparent 60%),
-    radial-gradient(circle 2.4px at 9px calc(100% - 9px), var(--brass-highlight), var(--gold-deep) 55%, transparent 60%),
-    radial-gradient(circle 2.4px at calc(100% - 9px) calc(100% - 9px), var(--brass-highlight), var(--gold-deep) 55%, transparent 60%);
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 72px;
+  width: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 0 8px rgba(239, 178, 79, 0.45));
 }
-.brand svg { color: var(--electric-bright); filter: drop-shadow(0 0 6px rgba(125, 216, 255, 0.75)); }
-.brand-logo { display: block; height: 34px; width: auto; border-radius: 4px; }
-
-.brand-word {
-  font-family: var(--font-display);
-  font-size: 2.1rem;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--text-primary);
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.6), 0 -1px 0 rgba(255, 246, 216, 0.12);
-}
-
-.brand-ai {
-  background: var(--gold-metal);
-  background-size: 100% 300%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  filter: drop-shadow(0 0 10px rgba(168, 103, 42, 0.55));
+/* Centered independently of the bolt mark, at 75% of the header's width,
+   never distorted (object-fit: contain preserves the source aspect ratio). */
+.brand-banner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 75%;
+  height: auto;
+  max-height: calc(100% - 8px);
+  object-fit: contain;
 }
 
 .lightning-divider {
@@ -204,6 +190,18 @@ a { color: var(--electric); }
 }
 .mobile-tab-bar a { color: var(--text-muted); }
 .mobile-tab-bar a.active { color: var(--gold-bright); filter: drop-shadow(0 0 6px rgba(239, 178, 79, 0.5)); }
+
+/* ---- Footer (Logout lives at the very bottom of the page now) ---- */
+.app-footer {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  border-top: 1px solid var(--panel-border);
+  background: var(--storm-1);
+}
+@media (max-width: 640px) {
+  .app-footer { margin-bottom: 58px; }
+}
 
 /* ---- Data surfaces: high contrast, no drama ---- */
 .card {
@@ -321,7 +319,7 @@ input:focus, select:focus, textarea:focus {
   overflow: hidden;
   /* intentionally no opaque background here — the shared WeatherBackground
      canvas (z-index 0) and body gradient must show through underneath */
-  background: radial-gradient(ellipse 900px 700px at 50% 20%, rgba(168, 103, 42, 0.22), transparent 60%);
+  background: radial-gradient(ellipse 900px 700px at 50% 10%, rgba(220, 220, 225, 0.16), transparent 62%);
 }
 .login-glow {
   position: absolute;
@@ -330,14 +328,14 @@ input:focus, select:focus, textarea:focus {
   transform: translateX(-50%);
   width: 700px;
   height: 500px;
-  background: radial-gradient(circle, rgba(239, 178, 79, 0.18) 0%, transparent 65%);
+  background: radial-gradient(circle, rgba(239, 178, 79, 0.22) 0%, transparent 65%);
   pointer-events: none;
 }
 .login-card {
   position: relative;
   z-index: 2;
   border: 1px solid var(--panel-border);
-  box-shadow: 0 0 40px rgba(168, 103, 42, 0.12), 0 8px 32px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 40px rgba(239, 178, 79, 0.14), 0 8px 32px rgba(0, 0, 0, 0.5);
 }
 .login-brand {
   position: relative;

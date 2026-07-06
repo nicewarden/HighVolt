@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">HighVolt Reference</string>
+    <string name="title_activity_main">HighVolt Reference</string>
+    <string name="package_name">com.highvolt.ai.reference</string>
+    <string name="custom_url_scheme">com.highvolt.ai.reference</string>
+</resources>

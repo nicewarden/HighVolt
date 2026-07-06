@@ -1,0 +1,1492 @@
+[
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "IEEE",
+    "title": "Institute of Electrical and Electronics Engineers",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.ieee.org/",
+    "sort_order": 113
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "NESC",
+    "title": "National Electrical Safety Code (ANSI C2)",
+    "detail": null,
+    "priority": null,
+    "link": "https://standards.ieee.org/products-programs/nesc/",
+    "sort_order": 114
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "NERC",
+    "title": "North American Electric Reliability Corporation",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.nerc.com/",
+    "sort_order": 115
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "FERC",
+    "title": "Federal Energy Regulatory Commission (approves/enforces NERC standards)",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.ferc.gov/",
+    "sort_order": 116
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "BES",
+    "title": "Bulk Electric System",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.google.com/search?q=site%3Aieee.org+BES",
+    "sort_order": 117
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "AIS / GIS",
+    "title": "Air-Insulated Substation / Gas-Insulated Substation",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.google.com/search?q=site%3Aieee.org+AIS+%2F+GIS",
+    "sort_order": 118
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "BIL",
+    "title": "Basic Insulation Level (lightning impulse withstand rating)",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.google.com/search?q=site%3Aieee.org+BIL",
+    "sort_order": 119
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "PRC",
+    "title": "Protection and Control (NERC standard category)",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.google.com/search?q=site%3Anerc.com+PRC",
+    "sort_order": 120
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "FAC",
+    "title": "Facilities Design, Connections, and Maintenance (NERC standard category)",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.google.com/search?q=site%3Anerc.com+FAC",
+    "sort_order": 121
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "CIP",
+    "title": "Critical Infrastructure Protection (NERC cyber/physical security category)",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.google.com/search?q=site%3Anerc.com+CIP",
+    "sort_order": 122
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "VAR",
+    "title": "Voltage and Reactive Power Control (NERC standard category)",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.google.com/search?q=site%3Anerc.com+VAR",
+    "sort_order": 123
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "TOP",
+    "title": "Transmission Operations (NERC standard category)",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.google.com/search?q=site%3Anerc.com+TOP",
+    "sort_order": 124
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "IRO",
+    "title": "Interconnection Reliability Operations (NERC standard category)",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.google.com/search?q=site%3Anerc.com+IRO",
+    "sort_order": 125
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "EOP",
+    "title": "Emergency Operations Planning (NERC standard category)",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.google.com/search?q=site%3Anerc.com+EOP",
+    "sort_order": 126
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "MOD",
+    "title": "Modeling, Data, and Analysis (NERC standard category)",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.google.com/search?q=site%3Anerc.com+MOD",
+    "sort_order": 127
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "COM",
+    "title": "Communications (NERC standard category)",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.google.com/search?q=site%3Anerc.com+COM",
+    "sort_order": 128
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "PER",
+    "title": "Personnel Performance, Training, and Qualifications (NERC standard category)",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.google.com/search?q=site%3Anerc.com+PER",
+    "sort_order": 129
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "RAS",
+    "title": "Remedial Action Scheme",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.google.com/search?q=site%3Aieee.org+RAS",
+    "sort_order": 130
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "UFLS / UVLS",
+    "title": "Underfrequency Load Shedding / Undervoltage Load Shedding",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.google.com/search?q=site%3Aieee.org+UFLS+%2F+UVLS",
+    "sort_order": 131
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "IED",
+    "title": "Intelligent Electronic Device (a microprocessor-based relay/controller)",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.google.com/search?q=site%3Aieee.org+IED",
+    "sort_order": 132
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "SCADA",
+    "title": "Supervisory Control and Data Acquisition",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.google.com/search?q=site%3Aieee.org+SCADA",
+    "sort_order": 133
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "GOOSE / MMS",
+    "title": "Generic Object Oriented Substation Event / Manufacturing Message Specification (IEC 61850 messaging types)",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.google.com/search?q=site%3Aieee.org+GOOSE+%2F+MMS",
+    "sort_order": 134
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "DFR",
+    "title": "Digital Fault Recorder",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.google.com/search?q=site%3Aieee.org+DFR",
+    "sort_order": 135
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "FAT",
+    "title": "Factory Acceptance Test",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.google.com/search?q=site%3Aieee.org+FAT",
+    "sort_order": 136
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "DGA",
+    "title": "Dissolved Gas Analysis (transformer oil testing)",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.google.com/search?q=site%3Aieee.org+DGA",
+    "sort_order": 137
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "ROW",
+    "title": "Right of Way",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.google.com/search?q=site%3Aieee.org+ROW",
+    "sort_order": 138
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "OSHA 1910.269",
+    "title": "OSHA standard for electric power generation, transmission, and distribution work practices (pairs closely with NESC Work Rules)",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.269",
+    "sort_order": 139
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "CT / PT (or VT)",
+    "title": "Current Transformer / Potential (Voltage) Transformer - instrument transformers for metering & protection",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.google.com/search?q=site%3Aieee.org+CT+%2F+PT+%28or+VT%29",
+    "sort_order": 140
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "VRLA",
+    "title": "Valve-Regulated Lead-Acid (sealed battery technology, see IEEE 1187)",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.google.com/search?q=site%3Aieee.org+VRLA",
+    "sort_order": 141
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "NiCad",
+    "title": "Nickel-Cadmium (battery technology, see IEEE 1106)",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.google.com/search?q=site%3Aieee.org+NiCad",
+    "sort_order": 142
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "PPE",
+    "title": "Personal Protective Equipment",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.google.com/search?q=site%3Aieee.org+PPE",
+    "sort_order": 143
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "AHJ",
+    "title": "Authority Having Jurisdiction",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.google.com/search?q=site%3Aieee.org+AHJ",
+    "sort_order": 144
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "NEC",
+    "title": "National Electrical Code (NFPA 70) - distinct from the NESC, generally not applicable to utility supply equipment",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70",
+    "sort_order": 145
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "ANSI",
+    "title": "American National Standards Institute",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.ansi.org/",
+    "sort_order": 146
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "NEMA",
+    "title": "National Electrical Manufacturers Association",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.nema.org/",
+    "sort_order": 147
+  },
+  {
+    "source": "Acronym Cheat Sheet",
+    "category": null,
+    "code": "ASCE",
+    "title": "American Society of Civil Engineers",
+    "detail": null,
+    "priority": null,
+    "link": "https://www.asce.org/",
+    "sort_order": 148
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Grounding & Safety",
+    "code": "IEEE 80",
+    "title": "Guide for Safety in AC Substation Grounding",
+    "detail": "The bible for grounding grid design - step/touch voltage, ground grid resistance. Every substation grounding design gets checked against this.",
+    "priority": "HIGH",
+    "link": "https://standards.ieee.org/ieee/80/4089/",
+    "sort_order": 0
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Grounding & Safety",
+    "code": "IEEE 837",
+    "title": "Standard for Qualifying Permanent Connections Used in Substation Grounding",
+    "detail": "Governs the ground connections/exothermic welds and compression fittings used in the grounding grid.",
+    "priority": "MEDIUM",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+837",
+    "sort_order": 1
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Grounding & Safety",
+    "code": "IEEE 1584",
+    "title": "Guide for Performing Arc-Flash Hazard Calculations",
+    "detail": "Used to calculate arc-flash incident energy for labeling and PPE requirements - directly affects site safety program.",
+    "priority": "HIGH",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+1584",
+    "sort_order": 2
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Clearances & Layout",
+    "code": "IEEE 1427",
+    "title": "Guide for Recommended Electrical Clearances and Insulation Levels in Air-Insulated Substations",
+    "detail": "Sets minimum clearances between energized parts and structures - directly affects site layout and BIL selection.",
+    "priority": "HIGH",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+1427",
+    "sort_order": 3
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Clearances & Layout",
+    "code": "ANSI C84.1",
+    "title": "Electric Power Systems and Equipment - Voltage Ratings (60 Hz)",
+    "detail": "Standard nominal system voltages and tolerances - referenced any time voltage class is specified.",
+    "priority": "MEDIUM",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+ANSI+C84.1",
+    "sort_order": 4
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Site & Environmental",
+    "code": "IEEE 1127",
+    "title": "Guide for Design, Construction, and Operation of Electric Power Substations for Community Acceptance and Environmental Compatibility",
+    "detail": "Community/environmental siting considerations - noise, visual, EMF concerns during permitting.",
+    "priority": "MEDIUM",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+1127",
+    "sort_order": 5
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Site & Environmental",
+    "code": "IEEE 693",
+    "title": "Recommended Practice for Seismic Design of Substations",
+    "detail": "Required in seismic zones - equipment anchoring, structural qualification testing.",
+    "priority": "MEDIUM (SITE-DEPENDENT)",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+693",
+    "sort_order": 6
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Site & Environmental",
+    "code": "IEEE 979",
+    "title": "Guide for Substation Fire Protection",
+    "detail": "Fire protection guidance specific to substations - spacing, fire barriers, suppression system selection. Read alongside NFPA 850.",
+    "priority": "HIGH",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+979",
+    "sort_order": 7
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Equipment - Transformers",
+    "code": "IEEE C57.12.00",
+    "title": "General Requirements for Liquid-Immersed Distribution, Power, and Regulating Transformers",
+    "detail": "Baseline spec transformers are built and tested to - referenced constantly in procurement and factory testing.",
+    "priority": "HIGH",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+C57.12.00",
+    "sort_order": 8
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Equipment - Transformers",
+    "code": "IEEE C57.12.10",
+    "title": "Standard Requirements for Liquid-Immersed Power Transformers",
+    "detail": "Governs larger power transformers (750 kVA three-phase and up) typically used in substations, vs. smaller distribution units.",
+    "priority": "HIGH",
+    "link": "https://webstore.ansi.org/standards/ieee/ieeec5712102017",
+    "sort_order": 9
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Equipment - Transformers",
+    "code": "IEEE C57.12.90",
+    "title": "Test Code for Liquid-Immersed Distribution, Power, and Regulating Transformers",
+    "detail": "Governs factory acceptance testing procedures for transformers - relevant when you witness FAT.",
+    "priority": "HIGH",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+C57.12.90",
+    "sort_order": 10
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Equipment - Transformers",
+    "code": "IEEE C57.12.36",
+    "title": "Standard Requirements for Liquid-Immersed Distribution Substation Transformers",
+    "detail": "Covers the small/mid power transformer class often used at distribution substations.",
+    "priority": "MEDIUM",
+    "link": "https://standards.ieee.org/standard/C57_12_36-2017.html",
+    "sort_order": 11
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Equipment - Transformers",
+    "code": "IEEE C57.13",
+    "title": "Standard Requirements for Instrument Transformers",
+    "detail": "Governs CTs and PTs (current/potential transformers) used for metering and protection - referenced on nearly every relay/metering scheme.",
+    "priority": "HIGH",
+    "link": "https://webstore.ansi.org/standards/ieee/ieeec57132016",
+    "sort_order": 12
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Equipment - Transformers",
+    "code": "IEEE C57.19.00 / C57.19.100",
+    "title": "General Requirements & Application Guide for Power Apparatus Bushings",
+    "detail": "Bushing design/application requirements and guidance - insulation failure prevention.",
+    "priority": "LOW-MEDIUM",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+C57.19.00+%2F+C57.19.100",
+    "sort_order": 13
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Equipment - Transformers",
+    "code": "IEEE C57.98",
+    "title": "Guide for Transformer Impulse Tests",
+    "detail": "Governs how BIL/impulse withstand testing is performed and interpreted on transformers.",
+    "priority": "LOW",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+C57.98",
+    "sort_order": 14
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Equipment - Transformers",
+    "code": "IEEE C57.170",
+    "title": "Guide for Transformer Condition Assessment",
+    "detail": "Used for evaluating existing/aging transformers - relevant on retrofit or expansion projects.",
+    "priority": "LOW",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+C57.170",
+    "sort_order": 15
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Equipment - Transformers",
+    "code": "IEEE C57.104",
+    "title": "Guide for the Interpretation of Gases Generated in Oil-Immersed Transformers",
+    "detail": "Interpreting Dissolved Gas Analysis (DGA) results - core diagnostic tool for transformer health.",
+    "priority": "MEDIUM",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+C57.104",
+    "sort_order": 16
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Equipment - Breakers & Switches",
+    "code": "IEEE C37.04",
+    "title": "Standard Rating Structure for AC High-Voltage Circuit Breakers",
+    "detail": "Defines the rating structure (interrupting rating, voltage class, etc.) breakers are specified against.",
+    "priority": "HIGH",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+C37.04",
+    "sort_order": 17
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Equipment - Breakers & Switches",
+    "code": "IEEE C37.06",
+    "title": "Preferred Ratings and Related Required Capabilities for AC High-Voltage Circuit Breakers",
+    "detail": "Standard ratings table for breakers - used when reviewing equipment specs/submittals.",
+    "priority": "HIGH",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+C37.06",
+    "sort_order": 18
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Equipment - Breakers & Switches",
+    "code": "IEEE C37.09",
+    "title": "Test Procedures for AC High-Voltage Circuit Breakers",
+    "detail": "Governs factory and field testing procedures for circuit breakers.",
+    "priority": "MEDIUM",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+C37.09",
+    "sort_order": 19
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Equipment - Breakers & Switches",
+    "code": "IEEE C37.30.1",
+    "title": "Standard Requirements for AC High-Voltage Air Switches Rated Above 1000 V",
+    "detail": "The consolidated modern standard for disconnect/grounding/interrupter switches (supersedes the older C37.30-C37.37 series).",
+    "priority": "HIGH",
+    "link": "https://standards.ieee.org/ieee/C37.30.1/5983/",
+    "sort_order": 20
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Equipment - Breakers & Switches",
+    "code": "IEEE C37.20.2",
+    "title": "Standard for Metal-Clad Switchgear",
+    "detail": "Governs metal-clad switchgear construction - relevant for GIS/AIS equipment specs.",
+    "priority": "MEDIUM",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+C37.20.2",
+    "sort_order": 21
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Equipment - GIS",
+    "code": "IEEE C37.122",
+    "title": "Standard for High-Voltage Gas-Insulated Substations, Rated Above 52 kV",
+    "detail": "Core standard if the project is a GIS (gas-insulated) substation rather than air-insulated.",
+    "priority": "HIGH (IF GIS PROJECT)",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+C37.122",
+    "sort_order": 22
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Insulation Coordination",
+    "code": "IEEE C62.11",
+    "title": "Standard for Metal-Oxide Surge Arresters for AC Power Circuits (>1 kV)",
+    "detail": "The primary surge arrester product standard - referenced on every arrester spec/submittal.",
+    "priority": "HIGH",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+C62.11",
+    "sort_order": 23
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Insulation Coordination",
+    "code": "IEEE C62.22",
+    "title": "Guide for the Application of Metal-Oxide Surge Arresters for AC Systems",
+    "detail": "Surge arrester selection/application guidance to protect equipment from lightning/switching surges.",
+    "priority": "MEDIUM",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+C62.22",
+    "sort_order": 24
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Insulation Coordination",
+    "code": "IEEE C62.92",
+    "title": "Guide for the Application of Neutral Grounding in Electrical Utility Systems",
+    "detail": "Governs grounding/neutral scheme selection (solidly grounded, resistance grounded, etc.) - affects fault current and equipment ratings.",
+    "priority": "MEDIUM",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+C62.92",
+    "sort_order": 25
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Protection & Relaying",
+    "code": "IEEE C37.90",
+    "title": "Standard for Relays and Relay Systems Associated with Electric Power Apparatus",
+    "detail": "Governs protective relay design/testing requirements - core to protection engineering coordination.",
+    "priority": "HIGH",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+C37.90",
+    "sort_order": 26
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Protection & Relaying",
+    "code": "IEEE C37.90.1",
+    "title": "Standard Surge Withstand Capability Tests for Relays and Relay Systems",
+    "detail": "Tests relay immunity to electrical noise/surges - relevant to control house wiring and shielding practices.",
+    "priority": "LOW-MEDIUM",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+C37.90.1",
+    "sort_order": 27
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Protection & Relaying",
+    "code": "IEEE C37.2",
+    "title": "Standard Electrical Power System Device Function Numbers",
+    "detail": "The numbering system (e.g., 87 = differential, 50/51 = overcurrent) used on every one-line diagram and relay setting sheet. Learn this early - it's how the whole industry talks.",
+    "priority": "HIGH",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+C37.2",
+    "sort_order": 28
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Protection & Relaying",
+    "code": "IEEE C37.1",
+    "title": "Standard for SCADA and Automation Systems",
+    "detail": "Governs SCADA/automation architecture for substation control systems.",
+    "priority": "MEDIUM",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+C37.1",
+    "sort_order": 29
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Protection & Relaying",
+    "code": "IEEE C37.110",
+    "title": "Guide for the Application of Current Transformers Used for Protective Relaying Purposes",
+    "detail": "Sizing/application of CTs specifically for protection accuracy - relevant to relay coordination studies.",
+    "priority": "MEDIUM",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+C37.110",
+    "sort_order": 30
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Protection & Relaying",
+    "code": "IEEE C37.233",
+    "title": "Guide for Power System Protection Testing",
+    "detail": "Guide for testing protection systems - relevant to commissioning/acceptance test plans.",
+    "priority": "MEDIUM",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+C37.233",
+    "sort_order": 31
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "DC / Batteries",
+    "code": "IEEE 450",
+    "title": "Recommended Practice for Maintenance, Testing, and Replacement of Vented Lead-Acid Batteries for Stationary Applications",
+    "detail": "Governs ongoing maintenance/testing of the station battery bank that powers protection/control during an outage.",
+    "priority": "MEDIUM",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+450",
+    "sort_order": 32
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "DC / Batteries",
+    "code": "IEEE 484",
+    "title": "Recommended Practice for Installation Design and Installation of Vented Lead-Acid Batteries for Stationary Applications",
+    "detail": "Battery room design - ventilation, spacing, seismic bracing, safety.",
+    "priority": "MEDIUM",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+484",
+    "sort_order": 33
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "DC / Batteries",
+    "code": "IEEE 485",
+    "title": "Recommended Practice for Sizing Vented Lead-Acid Batteries for Stationary Applications",
+    "detail": "Sizing calculation method for the DC battery bank based on load/duty cycle.",
+    "priority": "MEDIUM",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+485",
+    "sort_order": 34
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "DC / Batteries",
+    "code": "IEEE 1187",
+    "title": "Recommended Practice for Installation Design and Installation of Valve-Regulated Lead-Acid Batteries for Stationary Applications",
+    "detail": "Same purpose as IEEE 484 but for VRLA (sealed) battery technology, increasingly common in new builds.",
+    "priority": "MEDIUM",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+1187",
+    "sort_order": 35
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "DC / Batteries",
+    "code": "IEEE 1106",
+    "title": "Recommended Practice for Installation, Maintenance, Testing, and Replacement of Vented Nickel-Cadmium Batteries for Stationary Applications",
+    "detail": "Same purpose as 450/484 but for NiCad battery technology, sometimes used in extreme temperature sites.",
+    "priority": "LOW",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+1106",
+    "sort_order": 36
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Bus & Structures",
+    "code": "IEEE 605",
+    "title": "Guide for Bus Design in Air Insulated Substations",
+    "detail": "Bus structure design (rigid/strain bus) - relevant to structural/electrical layout review.",
+    "priority": "MEDIUM",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+605",
+    "sort_order": 37
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Bus & Structures",
+    "code": "IEEE/ASCE 113",
+    "title": "Design Guide for Substation Structures (ASCE Manual 74 family)",
+    "detail": "Structural design of steel/dead-end structures - referenced alongside ASCE 10 (lattice towers) if applicable.",
+    "priority": "MEDIUM",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE%2FASCE+113",
+    "sort_order": 38
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Automation & Comms",
+    "code": "IEEE 1613",
+    "title": "Standard Environmental and Testing Requirements for Communications Networking Devices in Electric Power Substations",
+    "detail": "Environmental/EMI testing requirements for network switches, RTUs, etc. installed in the substation.",
+    "priority": "LOW",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+1613",
+    "sort_order": 39
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Automation & Comms",
+    "code": "IEEE 1686",
+    "title": "Standard for Intelligent Electronic Devices (IEDs) Cyber Security Capabilities",
+    "detail": "Cybersecurity requirements for relays/IEDs - ties directly into NERC CIP compliance.",
+    "priority": "MEDIUM",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+1686",
+    "sort_order": 40
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Automation & Comms",
+    "code": "IEC 61850",
+    "title": "Communication Networks and Systems for Power Utility Automation (adopted alongside IEEE)",
+    "detail": "The modern digital substation communication standard (GOOSE, MMS, SCL). Increasingly the default for new builds.",
+    "priority": "HIGH (MODERN BUILDS)",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEC+61850",
+    "sort_order": 41
+  },
+  {
+    "source": "IEEE Standards",
+    "category": "Automation & Comms",
+    "code": "IEEE C37.1",
+    "title": "Standard for SCADA and Automation Systems (see also Protection & Relaying)",
+    "detail": "Cross-referenced here since it also governs automation database/architecture requirements.",
+    "priority": "MEDIUM",
+    "link": "https://www.google.com/search?q=site%3Astandards.ieee.org+IEEE+C37.1",
+    "sort_order": 42
+  },
+  {
+    "source": "NERC Reliability Std",
+    "category": "Protection & Control (PRC)",
+    "code": "PRC-005",
+    "title": "Protection System, Automatic Reclosing, and Sudden Pressure Relaying Maintenance",
+    "detail": "Sets mandatory maintenance/testing intervals for relays, batteries, breakers - directly shapes your commissioning and maintenance handoff requirements.",
+    "priority": "HIGH",
+    "link": "https://www.nerc.com/standards/reliability-standards/prc",
+    "sort_order": 56
+  },
+  {
+    "source": "NERC Reliability Std",
+    "category": "Protection & Control (PRC)",
+    "code": "PRC-004",
+    "title": "Protection System Misoperation Identification and Correction",
+    "detail": "Requires investigation/correction of relay misoperations - relevant post-commissioning.",
+    "priority": "MEDIUM",
+    "link": "https://www.nerc.com/standards/reliability-standards/prc",
+    "sort_order": 57
+  },
+  {
+    "source": "NERC Reliability Std",
+    "category": "Protection & Control (PRC)",
+    "code": "PRC-023",
+    "title": "Transmission Relay Loadability",
+    "detail": "Ensures protective relay settings don't trip on normal loading - relevant to protection coordination studies.",
+    "priority": "MEDIUM",
+    "link": "https://www.nerc.com/standards/reliability-standards/prc",
+    "sort_order": 58
+  },
+  {
+    "source": "NERC Reliability Std",
+    "category": "Protection & Control (PRC)",
+    "code": "PRC-027",
+    "title": "Coordination of Protection Systems for Performance During Faults",
+    "detail": "Requires coordination/documentation of protection settings across interconnected systems.",
+    "priority": "MEDIUM",
+    "link": "https://www.nerc.com/standards/reliability-standards/prc",
+    "sort_order": 59
+  },
+  {
+    "source": "NERC Reliability Std",
+    "category": "Protection & Control (PRC)",
+    "code": "PRC-002",
+    "title": "Disturbance Monitoring and Reporting Requirements",
+    "detail": "Requires adequate disturbance monitoring equipment/data for post-event analysis.",
+    "priority": "LOW-MEDIUM",
+    "link": "https://www.nerc.com/standards/reliability-standards/prc",
+    "sort_order": 60
+  },
+  {
+    "source": "NERC Reliability Std",
+    "category": "Protection & Control (PRC)",
+    "code": "PRC-018",
+    "title": "Disturbance Monitoring Equipment Installation and Data Reporting",
+    "detail": "Governs disturbance recorders/DFR equipment often specified in substation design.",
+    "priority": "LOW-MEDIUM",
+    "link": "https://www.nerc.com/standards/reliability-standards/prc",
+    "sort_order": 61
+  },
+  {
+    "source": "NERC Reliability Std",
+    "category": "Protection & Control (PRC)",
+    "code": "PRC-019",
+    "title": "Coordination of Generating Unit or Plant Capabilities, Voltage Regulating Controls, and Protection",
+    "detail": "Relevant if the substation interconnects to a generating plant/synchronous condenser.",
+    "priority": "LOW",
+    "link": "https://www.nerc.com/standards/reliability-standards/prc",
+    "sort_order": 62
+  },
+  {
+    "source": "NERC Reliability Std",
+    "category": "Protection & Control (PRC)",
+    "code": "PRC-024",
+    "title": "Frequency and Voltage Protection Settings for Generating Resources",
+    "detail": "Relevant on generation-interconnection substations - ride-through settings coordination.",
+    "priority": "LOW",
+    "link": "https://www.nerc.com/standards/reliability-standards/prc",
+    "sort_order": 63
+  },
+  {
+    "source": "NERC Reliability Std",
+    "category": "Facilities (FAC)",
+    "code": "FAC-008",
+    "title": "Facility Ratings",
+    "detail": "Requires documented methodology for equipment ratings (transformers, breakers, bus) - directly ties into equipment nameplate/rating verification during procurement.",
+    "priority": "HIGH",
+    "link": "https://www.nerc.com/standards/reliability-standards/fac",
+    "sort_order": 64
+  },
+  {
+    "source": "NERC Reliability Std",
+    "category": "Facilities (FAC)",
+    "code": "FAC-001",
+    "title": "Facility Interconnection Requirements",
+    "detail": "Sets the requirements a Transmission Owner must publish for new facilities connecting to its system - relevant during interconnection studies.",
+    "priority": "MEDIUM",
+    "link": "https://www.nerc.com/standards/reliability-standards/fac",
+    "sort_order": 65
+  },
+  {
+    "source": "NERC Reliability Std",
+    "category": "Facilities (FAC)",
+    "code": "FAC-002",
+    "title": "Facility Interconnection Studies",
+    "detail": "Requires interconnection studies be performed for new/modified facilities - relevant during project planning phase.",
+    "priority": "MEDIUM",
+    "link": "https://www.nerc.com/standards/reliability-standards/fac",
+    "sort_order": 66
+  },
+  {
+    "source": "NERC Reliability Std",
+    "category": "Facilities (FAC)",
+    "code": "FAC-003",
+    "title": "Transmission Vegetation Management",
+    "detail": "Mostly line-focused, but relevant if the substation site has ROW/vegetation clearance requirements.",
+    "priority": "LOW",
+    "link": "https://www.nerc.com/standards/reliability-standards/fac",
+    "sort_order": 67
+  },
+  {
+    "source": "NERC Reliability Std",
+    "category": "Modeling (MOD)",
+    "code": "MOD-025",
+    "title": "Verification and Data Reporting of Generator Real and Reactive Power Capability",
+    "detail": "Relevant on generation-interconnected substations - capability verification testing.",
+    "priority": "LOW",
+    "link": "https://www.nerc.com/standards/reliability-standards/mod",
+    "sort_order": 68
+  },
+  {
+    "source": "NERC Reliability Std",
+    "category": "Modeling (MOD)",
+    "code": "MOD-026 / MOD-027",
+    "title": "Verification of Models and Data for Generator Excitation/Governor/Dynamic Response",
+    "detail": "Relevant on generation-interconnected substations for dynamic model validation.",
+    "priority": "LOW",
+    "link": "https://www.nerc.com/standards/reliability-standards/mod",
+    "sort_order": 69
+  },
+  {
+    "source": "NERC Reliability Std",
+    "category": "Physical & Cyber Security (CIP)",
+    "code": "CIP-014",
+    "title": "Physical Security",
+    "detail": "Identifies critical transmission substations requiring enhanced physical security (following the 2013 Metcalf substation attack) - directly affects fencing, cameras, intrusion detection design on critical sites.",
+    "priority": "HIGH (IF CIP-014 DESIGNATED)",
+    "link": "https://www.nerc.com/standards/reliability-standards/cip",
+    "sort_order": 70
+  },
+  {
+    "source": "NERC Reliability Std",
+    "category": "Physical & Cyber Security (CIP)",
+    "code": "CIP-002",
+    "title": "BES Cyber System Categorization",
+    "detail": "The starting point of the CIP suite - determines which of your substation's systems are even in scope for the rest of CIP.",
+    "priority": "HIGH",
+    "link": "https://www.nerc.com/standards/reliability-standards/cip",
+    "sort_order": 71
+  },
+  {
+    "source": "NERC Reliability Std",
+    "category": "Physical & Cyber Security (CIP)",
+    "code": "CIP-005",
+    "title": "Electronic Security Perimeter(s)",
+    "detail": "Governs network security boundaries around substation control/protection systems.",
+    "priority": "MEDIUM-HIGH",
+    "link": "https://www.nerc.com/standards/reliability-standards/cip",
+    "sort_order": 72
+  },
+  {
+    "source": "NERC Reliability Std",
+    "category": "Physical & Cyber Security (CIP)",
+    "code": "CIP-006",
+    "title": "Physical Security of BES Cyber Systems",
+    "detail": "Governs physical access controls specifically for cyber system equipment (separate from CIP-014's broader site security).",
+    "priority": "MEDIUM-HIGH",
+    "link": "https://www.nerc.com/standards/reliability-standards/cip",
+    "sort_order": 73
+  },
+  {
+    "source": "NERC Reliability Std",
+    "category": "Physical & Cyber Security (CIP)",
+    "code": "CIP-007 to CIP-013",
+    "title": "Systems Security Management, Incident Reporting, Recovery Plans, Configuration Change Management, Vendor Risk Management",
+    "detail": "Rest of the cyber security lifecycle suite - relevant once the substation's control systems are classified as BES Cyber Systems.",
+    "priority": "MEDIUM",
+    "link": "https://www.nerc.com/standards/reliability-standards/cip",
+    "sort_order": 74
+  },
+  {
+    "source": "NERC Reliability Std",
+    "category": "Voltage & Reactive (VAR)",
+    "code": "VAR-002",
+    "title": "Generator Operation for Maintaining Network Voltage Schedules",
+    "detail": "Relevant if the substation includes generation interconnection or reactive power/voltage support equipment.",
+    "priority": "LOW-MEDIUM",
+    "link": "https://www.nerc.com/standards/reliability-standards/var",
+    "sort_order": 75
+  },
+  {
+    "source": "NERC Reliability Std",
+    "category": "Communications (COM)",
+    "code": "COM-002",
+    "title": "Operating Personnel Communications Protocols",
+    "detail": "Standardized communication protocols for operating instructions - relevant once the substation is operational and staffed/remotely operated.",
+    "priority": "LOW (CONSTRUCTION PHASE)",
+    "link": "https://www.nerc.com/standards/reliability-standards/com",
+    "sort_order": 76
+  },
+  {
+    "source": "NERC Reliability Std",
+    "category": "Operations (TOP / IRO)",
+    "code": "TOP / IRO series",
+    "title": "Transmission Operations / Interconnection Reliability Operations",
+    "detail": "Governs real-time operational coordination - relevant once the substation is energized and operating, less so during construction.",
+    "priority": "LOW (CONSTRUCTION PHASE)",
+    "link": "https://www.google.com/search?q=site%3Anerc.com+TOP+%2F+IRO+series",
+    "sort_order": 77
+  },
+  {
+    "source": "NERC Reliability Std",
+    "category": "Personnel (PER)",
+    "code": "PER-005",
+    "title": "Systematic Approach to Training",
+    "detail": "Requires personnel performing real-time operations be trained systematically - relevant to your commissioning/handover training plan for operators.",
+    "priority": "LOW-MEDIUM",
+    "link": "https://www.nerc.com/standards/reliability-standards/per",
+    "sort_order": 78
+  },
+  {
+    "source": "NERC Reliability Std",
+    "category": "Emergency Planning (EOP)",
+    "code": "EOP-005",
+    "title": "System Restoration from Blackstart Resources",
+    "detail": "Relevant if the substation plays a role in a blackstart/restoration plan.",
+    "priority": "LOW",
+    "link": "https://www.nerc.com/standards/reliability-standards/eop",
+    "sort_order": 79
+  },
+  {
+    "source": "NESC (Safety Code)",
+    "category": null,
+    "code": "Part 1 - Rules for Electric Supply Stations",
+    "title": "Part 1 - Rules for Electric Supply Stations",
+    "detail": "Substations, generating plants, and other electric supply installations\n\nThis is THE part of the NESC that directly governs substations (as opposed to overhead/underground lines).\n\nNotes: Start here - it's your home section",
+    "priority": null,
+    "link": "https://standards.ieee.org/products-programs/nesc/",
+    "sort_order": 43
+  },
+  {
+    "source": "NESC (Safety Code)",
+    "category": null,
+    "code": "Section 11 - Purpose, Scope, Application",
+    "title": "Section 11 - Purpose, Scope, Application",
+    "detail": "General applicability and definitions\n\nClarifies what counts as a \"supply station\" and when the code applies.",
+    "priority": null,
+    "link": "https://standards.ieee.org/products-programs/nesc/",
+    "sort_order": 44
+  },
+  {
+    "source": "NESC (Safety Code)",
+    "category": null,
+    "code": "Section 12 - General Requirements",
+    "title": "Section 12 - General Requirements",
+    "detail": "General safety requirements for supply stations\n\nBaseline safety expectations for the whole facility.",
+    "priority": null,
+    "link": "https://standards.ieee.org/products-programs/nesc/",
+    "sort_order": 45
+  },
+  {
+    "source": "NESC (Safety Code)",
+    "category": null,
+    "code": "Section 13 - Enclosures",
+    "title": "Section 13 - Enclosures",
+    "detail": "Fencing, locks, warning signs for restricted access\n\nDirectly relevant to site security/fencing design - a routine owner's rep review item.\n\nNotes: Ties into NERC CIP-014 physical security too",
+    "priority": null,
+    "link": "https://standards.ieee.org/products-programs/nesc/",
+    "sort_order": 46
+  },
+  {
+    "source": "NESC (Safety Code)",
+    "category": null,
+    "code": "Section 14 - Working Space and Clearances",
+    "title": "Section 14 - Working Space and Clearances",
+    "detail": "Minimum working space around equipment, aisle clearances\n\nYou'll reference this when reviewing equipment layout drawings for maintenance access.",
+    "priority": null,
+    "link": "https://standards.ieee.org/products-programs/nesc/",
+    "sort_order": 47
+  },
+  {
+    "source": "NESC (Safety Code)",
+    "category": null,
+    "code": "Section 15 - Illumination",
+    "title": "Section 15 - Illumination",
+    "detail": "Lighting requirements\n\nSite lighting design review item.",
+    "priority": null,
+    "link": "https://standards.ieee.org/products-programs/nesc/",
+    "sort_order": 48
+  },
+  {
+    "source": "NESC (Safety Code)",
+    "category": null,
+    "code": "Section 16 - Guarding of Live Parts",
+    "title": "Section 16 - Guarding of Live Parts",
+    "detail": "Barriers/guarding for exposed energized equipment\n\nDirectly affects fencing, barriers, and equipment enclosure design.",
+    "priority": null,
+    "link": "https://standards.ieee.org/products-programs/nesc/",
+    "sort_order": 49
+  },
+  {
+    "source": "NESC (Safety Code)",
+    "category": null,
+    "code": "Section 17 - General Protection Requirements",
+    "title": "Section 17 - General Protection Requirements",
+    "detail": "Protective grounding, fire protection, drainage\n\nGrounding, oil containment, and fire protection systems all trace back here.",
+    "priority": null,
+    "link": "https://standards.ieee.org/products-programs/nesc/",
+    "sort_order": 50
+  },
+  {
+    "source": "NESC (Safety Code)",
+    "category": null,
+    "code": "Section 18 - Rotating Equipment",
+    "title": "Section 18 - Rotating Equipment",
+    "detail": "Generators/motors at supply stations\n\nUsually less relevant to pure substations unless there's on-site generation.\n\nNotes: Lower priority for pure substation work",
+    "priority": null,
+    "link": "https://standards.ieee.org/products-programs/nesc/",
+    "sort_order": 51
+  },
+  {
+    "source": "NESC (Safety Code)",
+    "category": null,
+    "code": "Section 19 - Storage Batteries",
+    "title": "Section 19 - Storage Batteries",
+    "detail": "DC battery systems for protection/control power\n\nBattery room design, ventilation, spacing - relevant since every substation has a DC system for protection.\n\nNotes: Cross-reference IEEE 450/484/1187",
+    "priority": null,
+    "link": "https://standards.ieee.org/products-programs/nesc/",
+    "sort_order": 52
+  },
+  {
+    "source": "NESC (Safety Code)",
+    "category": null,
+    "code": "Sections 20-29 - Overhead Lines Rules",
+    "title": "Sections 20-29 - Overhead Lines Rules",
+    "detail": "Clearances, strength/loading (Grade B/C construction), grounding for lines entering/leaving the substation\n\nRelevant at the substation's dead-end structures where transmission lines terminate.\n\nNotes: Grade B = higher strength, typically required for transmission",
+    "priority": null,
+    "link": "https://standards.ieee.org/products-programs/nesc/",
+    "sort_order": 53
+  },
+  {
+    "source": "NESC (Safety Code)",
+    "category": null,
+    "code": "Sections 30-39 - Underground Lines Rules",
+    "title": "Sections 30-39 - Underground Lines Rules",
+    "detail": "Underground cable/duct requirements\n\nRelevant if the substation has underground cable getaways.",
+    "priority": null,
+    "link": "https://standards.ieee.org/products-programs/nesc/",
+    "sort_order": 54
+  },
+  {
+    "source": "NESC (Safety Code)",
+    "category": null,
+    "code": "Sections 40-44 - Work Rules",
+    "title": "Sections 40-44 - Work Rules",
+    "detail": "Safe work practices for utility workers (energized/de-energized work, PPE)\n\nGoverns how your contractors' crews are required to work safely on site - overlaps with OSHA 1910.269.\n\nNotes: Cross-reference with OSHA 1910.269",
+    "priority": null,
+    "link": "https://standards.ieee.org/products-programs/nesc/",
+    "sort_order": 55
+  },
+  {
+    "source": "OSHA Standards",
+    "category": "Core Electric Power Work",
+    "code": "1910.269",
+    "title": "Electric Power Generation, Transmission, and Distribution",
+    "detail": "The primary general-industry standard for O&M work on substations - qualified-person rules, minimum approach distances, PPE, grounding, and job briefings.",
+    "priority": "HIGH",
+    "link": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.269",
+    "sort_order": 89
+  },
+  {
+    "source": "OSHA Standards",
+    "category": "Core Electric Power Work",
+    "code": "1926 Subpart V",
+    "title": "Electric Power Transmission and Distribution (Construction)",
+    "detail": "Construction-phase companion to 1910.269 - governs new substation builds, alterations, and improvements before the facility is in service.",
+    "priority": "HIGH",
+    "link": "https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926SubpartV",
+    "sort_order": 90
+  },
+  {
+    "source": "OSHA Standards",
+    "category": "Core Electric Power Work",
+    "code": "1926.403",
+    "title": "General Requirements (Electrical, Construction)",
+    "detail": "Working clearances, guarding of live parts, and access-control rules (locks, warning signs) for equipment over 600V - directly relevant to substation layout and fencing review.",
+    "priority": "HIGH",
+    "link": "https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.403",
+    "sort_order": 91
+  },
+  {
+    "source": "OSHA Standards",
+    "category": "Core Electric Power Work",
+    "code": "1926 Subpart K",
+    "title": "Electrical (Construction Wiring Methods)",
+    "detail": "Governs wiring methods/components for construction electrical work generally, including control house and low-voltage wiring during the build.",
+    "priority": "MEDIUM",
+    "link": "https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926SubpartK",
+    "sort_order": 92
+  },
+  {
+    "source": "OSHA Standards",
+    "category": "Personal Protective Equipment",
+    "code": "1910.132",
+    "title": "General Requirements (PPE)",
+    "detail": "Requires the hazard assessment that determines what PPE is needed in the first place - the foundation document behind every PPE decision.",
+    "priority": "HIGH",
+    "link": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132",
+    "sort_order": 93
+  },
+  {
+    "source": "OSHA Standards",
+    "category": "Personal Protective Equipment",
+    "code": "1910.133",
+    "title": "Eye and Face Protection",
+    "detail": "Governs safety glasses/face shields required for general site work and arc-flash exposure.",
+    "priority": "HIGH",
+    "link": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.133",
+    "sort_order": 94
+  },
+  {
+    "source": "OSHA Standards",
+    "category": "Personal Protective Equipment",
+    "code": "1910.135",
+    "title": "Head Protection",
+    "detail": "Hard hat requirements for the site.",
+    "priority": "HIGH",
+    "link": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.135",
+    "sort_order": 95
+  },
+  {
+    "source": "OSHA Standards",
+    "category": "Personal Protective Equipment",
+    "code": "1910.136",
+    "title": "Foot Protection",
+    "detail": "Safety footwear requirements for the site.",
+    "priority": "MEDIUM",
+    "link": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.136",
+    "sort_order": 96
+  },
+  {
+    "source": "OSHA Standards",
+    "category": "Personal Protective Equipment",
+    "code": "1910.137",
+    "title": "Electrical Protective Equipment",
+    "detail": "Governs insulating rubber gloves, sleeves, and blankets - including required periodic dielectric testing intervals.",
+    "priority": "HIGH",
+    "link": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.137",
+    "sort_order": 97
+  },
+  {
+    "source": "OSHA Standards",
+    "category": "Personal Protective Equipment",
+    "code": "1910.138",
+    "title": "Hand Protection",
+    "detail": "General hand protection requirements beyond electrical rubber gloves (cut/chemical resistant gloves, etc.).",
+    "priority": "MEDIUM",
+    "link": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.138",
+    "sort_order": 98
+  },
+  {
+    "source": "OSHA Standards",
+    "category": "Energy Control (LOTO)",
+    "code": "1910.147",
+    "title": "Control of Hazardous Energy (Lockout/Tagout)",
+    "detail": "General-industry LOTO baseline. Note: for power generation, transmission, and distribution equipment, 1910.269(d)/(m) provides the specific LOTO requirements that apply instead of 1910.147's general provisions.",
+    "priority": "HIGH",
+    "link": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147",
+    "sort_order": 99
+  },
+  {
+    "source": "OSHA Standards",
+    "category": "Energy Control (LOTO)",
+    "code": "1926.417",
+    "title": "Lockout and Tagging of Circuits (Construction)",
+    "detail": "Construction-phase lockout/tagging requirement for circuits and equipment being worked on.",
+    "priority": "MEDIUM",
+    "link": "https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.417",
+    "sort_order": 100
+  },
+  {
+    "source": "OSHA Standards",
+    "category": "Fall Protection",
+    "code": "1910 Subpart D",
+    "title": "Walking-Working Surfaces (incl. 1910.28 / 1910.29)",
+    "detail": "General industry fall protection baseline referenced by 1910.269(g) for substation structure/equipment work.",
+    "priority": "MEDIUM",
+    "link": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD",
+    "sort_order": 101
+  },
+  {
+    "source": "OSHA Standards",
+    "category": "Fall Protection",
+    "code": "1926 Subpart M",
+    "title": "Fall Protection (Construction)",
+    "detail": "Governs fall protection during the construction phase - relevant to steel erection, structure climbing, and bus work before energization.",
+    "priority": "HIGH",
+    "link": "https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926SubpartM",
+    "sort_order": 102
+  },
+  {
+    "source": "OSHA Standards",
+    "category": "Confined Space",
+    "code": "1910.146",
+    "title": "Permit-Required Confined Spaces",
+    "detail": "Applies to cable vaults, manholes, and below-grade duct/trench work at the substation.",
+    "priority": "MEDIUM",
+    "link": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.146",
+    "sort_order": 103
+  },
+  {
+    "source": "OSHA Standards",
+    "category": "Confined Space",
+    "code": "1926 Subpart AA",
+    "title": "Confined Spaces in Construction",
+    "detail": "Construction-phase confined space entry requirements - relevant to foundation, grounding trench, and vault work during the build.",
+    "priority": "MEDIUM",
+    "link": "https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926SubpartAA",
+    "sort_order": 104
+  },
+  {
+    "source": "OSHA Standards",
+    "category": "Excavation & Rigging",
+    "code": "1926 Subpart P",
+    "title": "Excavations",
+    "detail": "Governs trenching/excavation safety for grounding grids, duct banks, and foundations - a routine owner's rep inspection item.",
+    "priority": "HIGH",
+    "link": "https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926SubpartP",
+    "sort_order": 105
+  },
+  {
+    "source": "OSHA Standards",
+    "category": "Excavation & Rigging",
+    "code": "1926 Subpart L",
+    "title": "Scaffolds",
+    "detail": "Scaffold safety requirements for structure/bus work during construction.",
+    "priority": "MEDIUM",
+    "link": "https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926SubpartL",
+    "sort_order": 106
+  },
+  {
+    "source": "OSHA Standards",
+    "category": "Excavation & Rigging",
+    "code": "1926 Subpart CC",
+    "title": "Cranes and Derricks in Construction",
+    "detail": "Governs rigging/lifting operations - directly relevant to setting transformers, breakers, and steel structures.",
+    "priority": "HIGH",
+    "link": "https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926SubpartCC",
+    "sort_order": 107
+  },
+  {
+    "source": "OSHA Standards",
+    "category": "Health & Chemical Exposure",
+    "code": "1910.1200",
+    "title": "Hazard Communication",
+    "detail": "Governs labeling/SDS requirements for transformer oil, SF6 decomposition byproducts, and (on older equipment) PCB-containing oil.",
+    "priority": "MEDIUM",
+    "link": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200",
+    "sort_order": 108
+  },
+  {
+    "source": "OSHA Standards",
+    "category": "Health & Chemical Exposure",
+    "code": "1910.134",
+    "title": "Respiratory Protection",
+    "detail": "Relevant for SF6 handling/decomposition byproduct exposure and confined space entry.",
+    "priority": "MEDIUM",
+    "link": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134",
+    "sort_order": 109
+  },
+  {
+    "source": "OSHA Standards",
+    "category": "Recordkeeping & General Duty",
+    "code": "1904",
+    "title": "Recording and Reporting Occupational Injuries and Illnesses",
+    "detail": "Governs your OSHA 300 log and incident recordkeeping obligations for the project.",
+    "priority": "LOW-MEDIUM",
+    "link": "https://www.osha.gov/laws-regs/regulations/standardnumber/1904",
+    "sort_order": 110
+  },
+  {
+    "source": "OSHA Standards",
+    "category": "Recordkeeping & General Duty",
+    "code": "OSH Act Sec. 5(a)(1)",
+    "title": "General Duty Clause",
+    "detail": "Catch-all requirement to address recognized hazards even where no specific OSHA standard exists - commonly cited when a hazard falls outside an existing rule's literal scope.",
+    "priority": "LOW",
+    "link": "https://www.osha.gov/laws-regs/oshact/section5-duties",
+    "sort_order": 111
+  },
+  {
+    "source": "OSHA Standards",
+    "category": "OSHA eTool: Electric Power Generation, Transmission, and Distribution",
+    "code": "Open eTool",
+    "title": "Open eTool",
+    "detail": null,
+    "priority": null,
+    "link": null,
+    "sort_order": 112
+  },
+  {
+    "source": "Other Codes & Cross-Refs",
+    "category": "Fire Protection",
+    "code": "NFPA 850",
+    "title": "Recommended Practice for Fire Protection for Electric Generating Plants and HVDC Converter Stations",
+    "detail": "Companion to IEEE 979 - governs transformer spacing, fire barriers, and suppression system design for substations/generating stations.",
+    "priority": "HIGH",
+    "link": "https://www.nfpa.org/codes-and-standards/nfpa-850-standard-development/850",
+    "sort_order": 80
+  },
+  {
+    "source": "Other Codes & Cross-Refs",
+    "category": "Fire Protection",
+    "code": "NFPA 15",
+    "title": "Standard for Water Spray Fixed Systems for Fire Protection",
+    "detail": "Governs design/testing of water spray fire suppression systems sometimes used on large oil-filled transformers.",
+    "priority": "MEDIUM",
+    "link": "https://www.nfpa.org/codes-and-standards/nfpa-15-standard-development/15",
+    "sort_order": 81
+  },
+  {
+    "source": "Other Codes & Cross-Refs",
+    "category": "Fire Protection",
+    "code": "NFPA 70",
+    "title": "National Electrical Code (NEC)",
+    "detail": "Generally does not apply to utility-owned supply/transmission/distribution equipment, but does apply to station-service/control-house wiring in many jurisdictions. Know the utility exclusion.",
+    "priority": "MEDIUM",
+    "link": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70",
+    "sort_order": 82
+  },
+  {
+    "source": "Other Codes & Cross-Refs",
+    "category": "Worker Safety",
+    "code": "NFPA 70E",
+    "title": "Standard for Electrical Safety in the Workplace",
+    "detail": "Governs arc-flash PPE categories and safe work practices for personnel - used alongside IEEE 1584 arc-flash calculations.",
+    "priority": "HIGH",
+    "link": "https://www.nfpa.org/codes-and-standards/nfpa-70e-standard-development/70e",
+    "sort_order": 83
+  },
+  {
+    "source": "Other Codes & Cross-Refs",
+    "category": "Structures",
+    "code": "ASCE 10",
+    "title": "Design of Latticed Steel Transmission Structures",
+    "detail": "Governs lattice tower structural design - relevant if the substation's dead-end/takeoff structures use lattice construction.",
+    "priority": "MEDIUM",
+    "link": "https://www.google.com/search?q=site%3Aasce.org+ASCE+10",
+    "sort_order": 84
+  },
+  {
+    "source": "Other Codes & Cross-Refs",
+    "category": "Structures",
+    "code": "ASCE 48",
+    "title": "Design of Steel Transmission Pole Structures",
+    "detail": "Governs steel pole structural design - the tubular-pole alternative to lattice construction.",
+    "priority": "MEDIUM",
+    "link": "https://www.google.com/search?q=site%3Aasce.org+ASCE+48",
+    "sort_order": 85
+  },
+  {
+    "source": "Other Codes & Cross-Refs",
+    "category": "Structures",
+    "code": "ASCE 113 / Manual 74",
+    "title": "Substation Structure Design Guide",
+    "detail": "General guide for substation structural design - cross-referenced with IEEE/ASCE 113 in the IEEE tab.",
+    "priority": "MEDIUM",
+    "link": "https://www.google.com/search?q=site%3Aasce.org+ASCE+113+%2F+Manual+74",
+    "sort_order": 86
+  },
+  {
+    "source": "Other Codes & Cross-Refs",
+    "category": "Equipment Ratings",
+    "code": "ANSI C84.1",
+    "title": "Electric Power Systems and Equipment - Voltage Ratings (60 Hz)",
+    "detail": "Defines standard nominal voltage classes and acceptable ranges - baseline reference for any voltage-related spec.",
+    "priority": "MEDIUM",
+    "link": "https://www.google.com/search?q=site%3Aansi.org+ANSI+C84.1",
+    "sort_order": 87
+  },
+  {
+    "source": "Other Codes & Cross-Refs",
+    "category": "Grounding/Bonding Hardware",
+    "code": "NEMA CC1",
+    "title": "Electric Power Connection for Substations",
+    "detail": "Covers connector hardware standards sometimes referenced alongside IEEE 837 for grounding hardware.",
+    "priority": "LOW",
+    "link": "https://www.google.com/search?q=site%3Anema.org+NEMA+CC1",
+    "sort_order": 88
+  }
+]
