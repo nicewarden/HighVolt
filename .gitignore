@@ -8,6 +8,11 @@ mobile/android/.gradle/
 mobile/android/build/
 mobile/android/app/build/
 mobile/android/local.properties
+mobile-app/node_modules/
+mobile-app/android/.gradle/
+mobile-app/android/build/
+mobile-app/android/app/build/
+mobile-app/android/local.properties
 server/data/*.db
 server/data/*.db-journal
 server/data/*.db-wal

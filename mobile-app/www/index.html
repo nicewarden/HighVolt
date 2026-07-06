@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover" />
+<title>HighVolt AI</title>
+<style>
+  html, body { margin: 0; padding: 0; height: 100%; background: #1c1c1e; overflow: hidden; }
+  #app-frame { position: fixed; inset: 0; width: 100%; height: 100%; border: none; background: #1c1c1e; }
+  #settings-btn {
+    position: fixed;
+    bottom: 14px;
+    right: 14px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(30, 29, 32, 0.55);
+    border: 1px solid rgba(201, 138, 53, 0.4);
+    color: #efb24f;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    -webkit-tap-highlight-color: transparent;
+  }
+</style>
+</head>
+<body>
+  <iframe id="app-frame" allow="microphone; camera"></iframe>
+  <button id="settings-btn" aria-label="Change server address">&#9881;</button>
+
+  <script>
+    var STORAGE_KEY = 'highvolt_server_url';
+    var DEFAULT_URL = 'http://192.168.1.246:4000';
+
+    function getServerUrl() {
+      return localStorage.getItem(STORAGE_KEY) || DEFAULT_URL;
+    }
+
+    function setServerUrl(url) {
+      localStorage.setItem(STORAGE_KEY, url);
+    }
+
+    function loadFrame() {
+      document.getElementById('app-frame').src = getServerUrl();
+    }
+
+    document.getElementById('settings-btn').addEventListener('click', function () {
+      var current = getServerUrl();
+      var next = prompt(
+        'HighVolt AI server address\n\nEnter your laptop\'s address (find it with ipconfig on the laptop, on the same Wi-Fi network):',
+        current
+      );
+      if (next && next.trim() && next.trim() !== current) {
+        setServerUrl(next.trim());
+        loadFrame();
+      }
+    });
+
+    loadFrame();
+  </script>
+</body>
+</html>
